@@ -29,7 +29,7 @@ def view_task():
 
 
 tasks = []
-done = []
+
 
 while True:
     choise = input("Enter your choise: ")
@@ -49,7 +49,4 @@ while True:
             print ("invalid choise ")
     except:
         print ('invalid choise')
-
-# Dict = {"AHmed":1 , "age":2}
-# print (Dict["AHmed"]) 
 
